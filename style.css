@@ -1,0 +1,201 @@
+* {
+    font-family: sans-serif;
+}
+
+/* section {
+    padding: 60px 0;
+} */
+
+:root {
+    --orange: #ff9100;
+    --hoverOrange: #9f5f0b;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-nav li a {
+    color: grey;
+    font-weight: bold;
+}
+
+.navbar-nav li a.selected,
+.stars i {
+    color: var(--orange);
+}
+
+.navbar-nav li a:hover {
+    color: var(--orange);
+}
+
+.navbar-button button,
+button.btn-about {
+    color: white;
+    background-color: var(--orange);
+}
+
+.footer .btn{
+background-color: #ddc8a7;
+border: 2px solid rgba(0, 0, 0, 0.471);
+}
+
+.navbar-button button:hover,
+a.btn-brand:hover,
+button.btn-about:hover,
+.footer .btn:hover {
+    color: white;
+    background-color: var(--hoverOrange);
+}
+
+.car-text {
+    text-shadow: 5px 5px 5px var(--orange);
+}
+
+.car-title {
+    color: var(--orange);
+    text-shadow: 2px 2px 3px black;
+}
+
+.car-title:hover {
+    color: #ce7603;
+    text-shadow: 2px 2px 3px black;
+}
+
+a.btn-brand {
+    color: white;
+    background-color: var(--orange);
+    margin-top: 10px;
+    padding: 15px 35px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.601);
+}
+
+.carousel-item img {
+    filter: brightness(40%);
+}
+
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.636);
+    margin-left: 200px;
+    padding: 25px;
+    padding-top: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, 0.636);
+    margin-right: 200px;
+    padding: 25px;
+    padding-top: 50px;
+}
+
+div.line {
+    background-color: var(--orange);
+    width: 20%;
+    height: 3px;
+    margin-bottom: 20px;
+}
+
+div.aboutUs {
+    margin-top: 70px;
+    padding-top: 50px;
+}
+
+.nav .nav-link {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    /* border: 1px ; */
+}
+
+.nav .nav-link.active {
+    background-color: var(--orange);
+    color: white;
+}
+
+.nav .nav-link:hover {
+    color: var(--orange);
+}
+
+.nav .nav-link.active:hover {
+    background-color: var(--hoverOrange);
+    color: white;
+}
+
+div.menu-item,
+div.chef-rad {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+div.menu-item:hover,
+div.chef-rad:hover,
+.img-about:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 var(--hoverOrange);
+
+}
+
+
+div.chef-rad {
+    border: 1px solid rgba(128, 128, 128, 0.166);
+}
+
+
+div.chef-rad img {
+    border-radius: 35%;
+    height: 250px;
+    width: 50%;
+    box-shadow: -15px -15px var(--orange);
+}
+
+#chef {
+    margin-bottom: 150px;
+}
+
+#chef h1 {
+    color: var(--orange);
+    text-shadow: 2px 2px 3px black;
+}
+
+#chef h1:hover {
+    text-shadow: 3px 3px 3px black;
+}
+
+div.chef-content p {
+    color: var(--orange);
+}
+
+.footer {
+    background-color: var(--orange);
+    padding: 30px 0;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+label.footerheader{
+    color: rgba(0, 0, 0, 0.615);
+}
+label.footerheader:hover{
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+    h6.car-title {
+        padding-top: 5px;
+        font-size: 23px;
+        color: var(--orange);
+    }
+
+    h1.car-sub {
+        font-size: 28px;
+    }
+
+    a.btn-brand {
+        color: white;
+        background-color: var(--orange);
+        margin-top: 10px;
+        padding: 7px 25px;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.601);
+    }
+
+}

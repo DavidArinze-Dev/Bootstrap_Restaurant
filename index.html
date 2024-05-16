@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap Restaurant</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./media/goldenPhoenixLogo.jpg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow">
+        <div class="container-fluid mb-3">
+            <a class="navbar-brand" href="./index.html"><img src="./media/goldenPhoenixLogo.jpg" alt="GoldenPhoenix"
+                    height="80px"></a>
+
+            <!-- NavBar LINKS -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+
+                <ul class="navbar-nav mb-0 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link selected" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chef">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <div class="navbar-button mb-3 d-lg-none toggle-order">
+                        <form class="d-flex " role="search">
+                            <button class="btn px-4 py-2" type="submit">Order Online</button>
+                        </form>
+                    </div>
+                </ul>
+
+            </div>
+
+            <!-- Order Online Button -->
+            <div class="navbar-button mx-2 d-none d-lg-block">
+                <form class="d-flex " role="search">
+                    <button class="btn px-4 py-2" type="submit">Order Online</button>
+                </form>
+            </div>
+
+            <!-- toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section class="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <!-- Carousel Image -->
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./media/food1.jpg" class="d-block w-100">
+
+                    <!-- Carousel Caption -->
+                    <div class="container carousel-caption h-100 d-flex w-auto">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-8">
+                                <h6 class="display-6 car-title">Welcome To Flame-Angel Restaurant</h6>
+                                <h1 class="car-text display-2 fw-bold car-sub">Spicy and Fresh Food For Everyone</h1>
+                                <a href="#" class="btn btn-brand">Book Table</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Image -->
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./media/food2.jpg" class="d-block w-100">
+
+                    <!-- Carousel Caption -->
+                    <div class="container carousel-caption h-100 d-flex w-auto">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-8">
+                                <h6 class="display-6 car-title">Welcome To Flame-Angel Restaurant</h6>
+                                <h1 class="car-text display-2 fw-bold car-sub">Fresh and Tasty Food For Everyone</h1>
+                                <a href="#" class="btn btn-brand">Book Table</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="mt-5">
+        <div class="container">
+
+            <div class="row pt-1">
+                <div class="col-md-5 ">
+                    <img src="./media/louis.jpg" class="img-about" height="700px" width="100%">
+                </div>
+
+                <div class="col-md-7 mb-5 text-start aboutUs">
+                    <h2 class="fw-bold">About Us</h2>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo cum id, minus quaerat rerum
+                        ipsa
+                        libero. Officiis, atque quod fugit eaque hic, animi aliquid fuga non dolorem placeat earum
+                        eos!
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem natus ad hic, distinctio
+                        tempora
+                        aut, esse tenetur, dolore ipsum possimus atque? Exercitationem, magnam inventore fugiat
+                        impedit
+                        voluptate, amet ipsum facilis aspernatur dolorum fuga excepturi deserunt asperiores! Facere
+                        deserunt possimus magnam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem natus ad hic, distinctio
+                        tempora
+                        aut, esse tenetur, dolore ipsum possimus atque? Exercitationem, magnam inventore fugiat
+                        impedit
+                        voluptate, amet ipsum facilis aspernatur dolorum fuga excepturi deserunt asperiores! Facere
+                        deserunt possimus magnam.</p>
+                    <button class="btn btn-about">Explore Menu</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dishes -->
+    <section id="menu" class="section py-5 bg-light mb-5">
+        <ul class="nav justify-content-center mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link mx-1 active" id="pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                    aria-selected="true">Top Rated</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link mx-1" id="pills-breakfast-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                    aria-selected="false">Breakfast</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link mx-1" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+                    type="button" role="tab" aria-controls="pills-lunch" aria-selected="false">Lunch</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link mx-1" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner"
+                    type="button" role="tab" aria-controls="dinner" aria-selected="false">Dinner</button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+
+            <!-- Top Rated -->
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+                <div class="container">
+                    <div class="row text-start">
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white">
+                                <img src="./media/food1.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(5.0)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Vegan Fresh Salad</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white">
+                                <img src="./media/food2.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(5.0)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Green Saltless Salad</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white ">
+                                <img src="./media/food3.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Tomato Cabbage Salad</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="./media/food4.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Vegan White Rice</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Breakfast -->
+            <div class="tab-pane fade" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab"
+                tabindex="0">
+                <div class="container">
+                    <div class="row text-start">
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white">
+                                <img src="./media/Ffood1.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Meaty White Rice</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white">
+                                <img src="./media/Ffood2.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Fried Chewy Rice</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white ">
+                                <img src="./media/Ffood3.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">White Chewy Rice</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="./media/food5.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Fudgy Chewy Noodles</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lunch -->
+            <div class="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab" tabindex="0">
+                <div class="container">
+                    <div class="row text-start">
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white">
+                                <img src="./media/food6.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Full Platter Delight</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white">
+                                <img src="./media/food7.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Ofada Chewy Rice</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white ">
+                                <img src="./media/food8.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Fudgy Tangerine Rice</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="./media/food4.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Fudgy Salmon Rice</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dinner -->
+            <div class="tab-pane fade" id="pills-dinner" role="tabpanel" aria-labelledby="dinner-tab" tabindex="0">
+                <div class="container">
+                    <div class="row text-start">
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white">
+                                <img src="./media/Ffood2.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Meaty White Rice</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white">
+                                <img src="./media/Ffood3.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Fried Chewy Rice</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-4">
+                            <div class="menu-item bg-white ">
+                                <img src="./media/Ffood1.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">White Chewy Rice</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="./media/food1.jpg" alt="" width="100%">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span class="fw-bold text-muted">Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2 fw-bold">Vegan Fresh Salad</h5>
+                                    <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nostrum
+                                        veniam quisquam tenetur vero, perferendis deleniti maiores ipsum veritatis.
+                                        Dolore expedita dolorem quidem repellat eius fugiat tempore laborum, eos
+                                        officiis at.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Members -->
+    <section id="chef">
+        <div class="container">
+            <div class="row">
+                <div class="chef-heading text-center mb-4">
+                    <h1 class="fw-bold">Our Team Members</h1>
+                    <p class="fw-bold text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+                        corrupti vero obcaecati voluptas,
+                        expedita ad iusto ratione eaque aperiam culpa soluta porro odit quod repudiandae officiis
+                        doloremque laboriosam, dignissimos minima magnam alias aut provident reprehenderit deleniti!
+                        Itaque eveniet corrupti excepturi adipisci fugit consequatur tenetur aspernatur facilis fuga.
+                        Exercitationem, possimus sit.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="text-center chef-rad">
+                        <img src="./media/Chef1.jpg" alt="">
+                        <div class="chef-content">
+                            <h4 class="mt-4 fw-bold">Jon Chi</h4>
+                            <p class="fw-bold">Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="text-center chef-rad">
+                        <img src="./media/Chef2.jpg" alt="">
+                        <div class="chef-content">
+                            <h4 class="mt-4 fw-bold">Tosin Eniola</h4>
+                            <p class="fw-bold">Asst. Chef</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="text-center chef-rad">
+                        <img src="./media/Chef3.jpg" alt="">
+                        <div class="chef-content">
+                            <h4 class="mt-4 fw-bold">Tim Sullivan</h4>
+                            <p class="fw-bold">Head Waiter</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="text-center chef-rad">
+                        <img src="./media/Chef4.jpg" alt="">
+                        <div class="chef-content">
+                            <h4 class="mt-4 fw-bold">Billy Stones</h4>
+                            <p class="fw-bold">Head Bartender</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <p class="fw-bold">
+                        <label class="fw-bold footerheader">Contact Us:</label>
+                    </p>
+                    <p class="ps-2">
+                        123, Heavenly Drive, Sabo. <br>
+                        Yaba, Lagos <br>
+                        Lagos, <br>
+                        Nigeria.
+                    </p>
+                </div>
+
+                <div class="col-6 text-start">
+                    <form>
+                        <label class="form-label fw-bold footerheader" for="specificSizeInputGroupEmail">Email address:</label>
+                        <div class="input-group">
+                            <div class="input-group-text"><i class="bi bi-envelope-at-fill"></i></div>
+                            <input type="text" class="form-control" id="specificSizeInputGroupEmail"
+                                placeholder="e.g: david@gmail.com">
+                        </div>
+                        <div id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.
+                        </div>
+                        <button type="button" class="btn  mt-3">Submit</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
